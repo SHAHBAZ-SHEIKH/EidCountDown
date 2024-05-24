@@ -1,0 +1,406 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.container{
+    background-image: url('./image/back.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow-x: hidden;
+    
+}
+.message2{
+    text-align: center;
+    display: none;
+}
+.message2 h2 {
+    font-size: 25px;
+    color: #F33A6A;
+}
+.message2 p{
+    font-size: 25px;
+    color: #F33A6A;
+}
+
+.count{
+    display: flex;
+    width: 50%;
+    background-color: rgba(40,50,61,0.61);
+    justify-content: space-around;
+    margin-top: 20px;
+    align-items: center;
+    height: 28%;
+    font-family: "Roboto", sans-serif;
+}
+.head h2{
+    font-size:45px ;
+    color: #fafafa;
+}
+.days{
+    text-align: center;
+}
+.days h2{
+    font-size: 80px;
+    color: #fafafa;
+}
+.days span{
+    font-size: 25px;
+    color: #fff;
+}
+.hours{
+    text-align: center;
+}
+.hours h2{
+    font-size: 80px;
+    color: #fafafa;
+}
+.hours span{
+    font-size: 25px;
+    color: #fff;
+}
+.min{
+    text-align: center;
+}
+.min h2{
+    font-size: 80px;
+    color: #fafafa;
+}
+.min span{
+    font-size: 25px;
+    color: #fff;
+}
+.sec{
+    text-align: center;
+}
+.sec h2{
+    font-size: 80px;
+    color:#F33A6A;
+}
+.sec span{
+    font-size: 25px;
+    color: #fff;
+}
+@media (max-width:1024px){
+    .count{
+        display: flex;
+        width: 65%;
+        background-color: rgba(40,50,61,0.61);
+        justify-content: space-around;
+        margin-top: 20px;
+        align-items: center;
+        height: 28%;
+        font-family: "Roboto", sans-serif;
+    }
+    .head h2{
+        font-size:40px ;
+        color: #fafafa;
+    }
+    .days{
+        text-align: center;
+    }
+    .days h2{
+        font-size: 60px;
+        color: #fafafa;
+    }
+    .days span{
+        font-size: 25px;
+        color: #fff;
+    }
+    .hours{
+        text-align: center;
+    }
+    .hours h2{
+        font-size: 60px;
+        color: #fafafa;
+    }
+    .hours span{
+        font-size: 25px;
+        color: #fff;
+    }
+    .min{
+        text-align: center;
+    }
+    .min h2{
+        font-size: 60px;
+        color: #fafafa;
+    }
+    .min span{
+        font-size: 25px;
+        color: #fff;
+    }
+    .sec{
+        text-align: center;
+    }
+    .sec h2{
+        font-size: 60px;
+        color:#F33A6A;
+    }
+    .sec span{
+        font-size: 25px;
+        color: #fff;
+    }
+    
+    
+}
+
+
+@media (max-width:820px){
+    .count{
+        display: flex;
+        width: 65%;
+        background-color: rgba(40,50,61,0.61);
+        justify-content: space-around;
+        margin-top: 20px;
+        align-items: center;
+        height: 28%;
+        font-family: "Roboto", sans-serif;
+    }
+    .head h2{
+        font-size:33px ;
+        color: #fafafa;
+    }
+    .days{
+        text-align: center;
+    }
+    .days h2{
+        font-size: 53px;
+        color: #fafafa;
+    }
+    .days span{
+        font-size: 21px;
+        color: #fff;
+    }
+    .hours{
+        text-align: center;
+    }
+    .hours h2{
+        font-size: 53px;
+        color: #fafafa;
+    }
+    .hours span{
+        font-size: 21px;
+        color: #fff;
+    }
+    .min{
+        text-align: center;
+    }
+    .min h2{
+        font-size: 53px;
+        color: #fafafa;
+    }
+    .min span{
+        font-size: 21px;
+        color: #fff;
+    }
+    .sec{
+        text-align: center;
+    }
+    .sec h2{
+        font-size: 53px;
+        color:#F33A6A;
+    }
+    .sec span{
+        font-size: 21px;
+        color: #fff;
+    }
+    
+    
+}
+
+@media (max-width:508px){
+    .count{
+        display: flex;
+        width: 80%;
+        background-color: rgba(40,50,61,0.61);
+        justify-content: space-around;
+        margin-top: 20px;
+        align-items: center;
+        height: 25%;
+        font-family: "Roboto", sans-serif;
+    }
+    .head h2{
+        font-size:25px ;
+        color: #fafafa;
+    }
+    .days{
+        text-align: center;
+    }
+    .days h2{
+        font-size: 35px;
+        color: #fafafa;
+    }
+    .days span{
+        font-size: 18px;
+        color: #fff;
+    }
+    .hours{
+        text-align: center;
+    }
+    .hours h2{
+        font-size: 35px;
+        color: #fafafa;
+    }
+    .hours span{
+        font-size: 18px;
+        color: #fff;
+    }
+    .min{
+        text-align: center;
+    }
+    .min h2{
+        font-size: 35px;
+        color: #fafafa;
+    }
+    .min span{
+        font-size: 18px;
+        color: #fff;
+    }
+    .sec{
+        text-align: center;
+    }
+    .sec h2{
+        font-size: 35px;
+        color:#F33A6A;
+    }
+    .sec span{
+        font-size: 18px;
+        color: #fff;
+    }
+    
+}
+@media (max-width:375px){
+    .count{
+        display: flex;
+        width: 80%;
+        background-color: rgba(40,50,61,0.61);
+        justify-content: space-around;
+        margin-top: 20px;
+        align-items: center;
+        height: 25%;
+        font-family: "Roboto", sans-serif;
+    }
+    .head h2{
+        font-size:25px ;
+        color: #fafafa;
+    }
+    .days{
+        text-align: center;
+    }
+    .days h2{
+        font-size: 32px;
+        color: #fafafa;
+    }
+    .days span{
+        font-size: 15px;
+        color: #fff;
+    }
+    .hours{
+        text-align: center;
+    }
+    .hours h2{
+        font-size: 32px;
+        color: #fafafa;
+    }
+    .hours span{
+        font-size: 15px;
+        color: #fff;
+    }
+    .min{
+        text-align: center;
+    }
+    .min h2{
+        font-size: 32px;
+        color: #fafafa;
+    }
+    .min span{
+        font-size: 15px;
+        color: #fff;
+    }
+    .sec{
+        text-align: center;
+    }
+    .sec h2{
+        font-size: 32px;
+        color:#F33A6A;
+    }
+    .sec span{
+        font-size: 15px;
+        color: #fff;
+    }
+    
+}
+@media (max-width:320px){
+    .count{
+        display: flex;
+        width: 80%;
+        background-color: rgba(40,50,61,0.61);
+        justify-content: space-around;
+        margin-top: 20px;
+        align-items: center;
+        height: 25%;
+        font-family: "Roboto", sans-serif;
+    }
+    .head h2{
+        font-size:25px ;
+        color: #fafafa;
+    }
+    .days{
+        text-align: center;
+    }
+    .days h2{
+        font-size: 32px;
+        color: #fafafa;
+    }
+    .days span{
+        font-size: 15px;
+        color: #fff;
+    }
+    .hours{
+        text-align: center;
+    }
+    .hours h2{
+        font-size: 32px;
+        color: #fafafa;
+    }
+    .hours span{
+        font-size: 15px;
+        color: #fff;
+    }
+    .min{
+        text-align: center;
+    }
+    .min h2{
+        font-size: 32px;
+        color: #fafafa;
+    }
+    .min span{
+        font-size: 15px;
+        color: #fff;
+    }
+    .sec{
+        text-align: center;
+    }
+    .sec h2{
+        font-size: 32px;
+        color:#F33A6A;
+    }
+    .sec span{
+        font-size: 15px;
+        color: #fff;
+    }
+    
+}
